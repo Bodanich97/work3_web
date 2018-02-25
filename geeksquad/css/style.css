@@ -1,13 +1,45 @@
-body {
-    background-color: white;
-    width: 1000px;
-    height: 800px;
-    margin: auto;
-
-}
 .main{
+    margin-top: 25px;
+    margin-left: 275px;
     align-content: center;
-    height: 200px;
-    width: 800px;
-    background-image:url('img/body-bg.png');
+    text-align: center;
+    height: 128px;
+    width: 1095px;
+    background-image: url(https://github.com/Bodanich97/work3_web/blob/master/geeksquad/img/body-bg.png?raw=true)
+}
+
+.img{
+    margin-left: 80px;
+    align-content: center;
+    text-align: center;
+    height: 69px;
+    width: 952px;
+    background-image: url(https://github.com/Bodanich97/work3_web/blob/master/geeksquad/img/utp.png?raw=true);
+}
+
+.mybtn{
+    text-align: center;
+    padding: 8px 10px;
+    color: #777777;
+    background: white;
+    outline: none;
+    border: 0;
+}
+.mybtn:hover {
+    color: black;
+    background: #62ccff;
+}
+
+.btnblock{
+    margin-left: 85px;
+    align-content: center;
+    text-align: center;
+    width: 952px;
+}
+
+hr {
+    border: none;
+    background-color: #62ccff;
+    color: #76d6ff;
+    height: 2px;
 }
