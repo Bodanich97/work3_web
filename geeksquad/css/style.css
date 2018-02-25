@@ -1,0 +1,13 @@
+body {
+    background-color: white;
+    width: 1000px;
+    height: 800px;
+    margin: auto;
+
+}
+.main{
+    align-content: center;
+    height: 200px;
+    width: 800px;
+    background-image:url('img/body-bg.png');
+}
