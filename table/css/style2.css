@@ -86,5 +86,5 @@ table.table1{
     text-shadow:1px 1px 1px #fff;
 }
 .table1 tbody span.check::before{
-    content : url(img/)
+    content : url(https://github.com/Bodanich97/work3_web/blob/master/table/img/check0.png?raw=true);
 }
