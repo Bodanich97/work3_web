@@ -1,4 +1,4 @@
-.work-portfolio__items {
+.__items {
     margin: 0 70px;
     display: flex;
     flex-wrap: wrap;
@@ -7,7 +7,7 @@
 
 }
 
-.work-portfolio__item {
+.__item {
     width: 800px;
     height: 450px;
     overflow: hidden;
@@ -21,29 +21,123 @@
     padding-left: 50pt;
 }
 
+.block2{
+    padding-top: 60px;
+    padding-left: 50px;
+    text-align: center;
+    align-content: center;
+    background: #ff4645;
+    height: 240px;
+    width: 490px;
+    position: absolute;
+    left: 316px;
+    top: 67px;
+    color: black;
+}
 
-.work-portfolio__item::before {
-    content: '+';
+
+.__item::before {
+    content: 'ВСЕ МЕНЮ';
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: black;
     font-size: 20px;
     display: block;
     position: absolute;
-    bottom: -9px;
-    left: calc(100% - 42px);
-    width: 35px;
-    height: 35px;
-    z-index: 1;
+    left: 650px;
+    top: 380px;
+    width: 130px;
+    height: 45px;
 }
 
-.work-portfolio__item::after {
-    content: 'БУРГЕР - ITALIAN   усього 90 грн';
+.__item::after {
+    content: 'БУРГЕР - ITALIAN!  ';
     display: block;
     position: absolute;
     left: 60px;
     top: 180px;
-    font-size: 15pt;
-    bottom: 0px;
-    width: 250px;
+    line-height: 35px;
+    font-style: normal;
+    font-size: 30pt;
+    padding-top: 20px;
+    padding-left: 35px;
+    padding-right: 25px;
+    width: 190px;
     height: 150px;
     background-color: #000000;
+}
+
+.line {
+    position: relative;
+    margin: 50px auto;
+    width: 150px;
+    height: 1px;
+    background: #ccc;
+}
+
+
+.line2 {
+    position: relative;
+}
+
+
+.line2:after {
+    content: 'Лови момент!';
+    position: absolute;
+    left: 150px;
+    top: -20px;
+    color: #000000;
+}
+
+.line2:before {
+    content: 'Усього 79 грн';
+    position: absolute;
+    left: -180px;
+    top: 200px;
+    color: #cb9b20;
+}
+
+.line:after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    width: 10px;
+    height: 10px;
+    background: #ccc;
+}
+
+.line:before {
+    color: #ccc;
+    content: 'Усього 79грн';
+    position: absolute;
+    top: -40px;
+    left: 35px;
+    width: 10px;
+    height: 10px;
+}
+
+
+.table{
+    padding-top: 60px;
+    padding-left: 50px;
+    text-align: center;
+    align-content: center;
+    background: white;
+    height: 240px;
+    width: 490px;
+    position: absolute;
+    left: 316px;
+    top: 67px;
+    color: black;
+}
+
+.block{
+    background: center;
+    height: 80px;
+    width: 75px;
 }
 

@@ -1,0 +1,54 @@
+body{
+    background: #ffd5ef;
+}
+
+.block1{
+    text-align: center;
+    height: 70px;
+    width: 200px;
+    background: #ff653a;
+    color: white;
+}
+
+.block0{
+    height: 70px;
+    width: 200px;
+    background: #ffd5ef;
+}
+
+.block2{
+    text-align: center;
+    height: 70px;
+    width: 200px;
+    background: black;
+    color: white;
+}
+
+.block3{
+    text-align: center;
+    height: 70px;
+    width: 200px;
+    background: #e9e9ff;
+    color: black;
+}
+
+table {
+    border-collapse: separate;
+}
+
+td {
+    border: 1px solid lightgray;
+    padding: 1px;
+}
+
+.btn {
+    text-align: center;
+}
+
+.btn a {
+    background: #ff261e;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px;
+}
